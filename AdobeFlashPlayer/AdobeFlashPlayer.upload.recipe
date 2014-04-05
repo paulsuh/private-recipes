@@ -2,24 +2,30 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Description</key>
-    <string>uploads RoyalTSX package.</string>
-    <key>Identifier</key>
-    <string>com.github.paul-suh-recipes.upload.RoyalTSX</string>
-    <key>Input</key>
-    <dict>
-        <key>NAME</key>
-        <string>RoyalTSX</string>
-    </dict>
-    <key>ParentRecipe</key>
-    <string>com.github.paul-suh-recipes.signing.RoyalTSX</string>
-    <key>Process</key>
-    <array>
-        <dict>
-            <key>Processor</key>
-            <string>ScpUploader</string>
-            <key>Arguments</key>
-            <dict>
+	<key>Description</key>
+	<string>Uploads signed PKG and sets symlinks</string>
+	<key>Identifier</key>
+	<string>com.github.paul-suh-recipes.upload.AdobeFlashPlayer</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>AdobeAIR</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.pkg.FlashPlayerExtractPackage</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Processor</key>
+			<string>DateTimeTagger</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>ScpUploader</string>
+			<key>Arguments</key>
+			<dict>
                 <key>dest_server</key>
                 <string>transpak.mspex.net</string>
                 <key>dest_path</key>
@@ -27,12 +33,8 @@
                 <key>dest_username</key>
                 <string>locadmin</string>
             </dict>
-        </dict>
-		<dict>
-			<key>Processor</key>
-			<string>PkgBasenameExtractor</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Processor</key>
 			<string>SshCommandRunner</string>
 			<key>Arguments</key>
@@ -43,6 +45,6 @@
 				<string>%pkg_basename%</string>
 			</dict>
 		</dict>
-    </array>
+	</array>
 </dict>
 </plist>
