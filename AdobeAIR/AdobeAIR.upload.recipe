@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Uploads signed PKG and sets symlinks</string>
 	<key>Identifier</key>
-	<string>com.github.paul-suh-recipes.upload.AdobeAIR</string>
+	<string>com.github.paulsuh.private-recipes.upload.AdobeAIR</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.paul-suh-recipes.signing.AdobeAIR</string>
+	<string>com.github.paulsuh.private-recipes.signing.AdobeAIR</string>
 	<key>Process</key>
 	<array>
 		<dict>

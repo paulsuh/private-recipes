@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Uploads signed PKG and sets symlinks</string>
 	<key>Identifier</key>
-	<string>com.github.paul-suh-recipes.upload.Acorn</string>
+	<string>com.github.paulsuh.private-recipes.upload.Acorn</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.paul-suh-recipes.signing.Acorn</string>
+	<string>com.github.paulsuh.private-recipes.signing.Acorn</string>
 	<key>Process</key>
 	<array>
 		<dict>

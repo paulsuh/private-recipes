@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Creates signed PKG of Adobe AIR.</string>
+	<string>Creates signed PKG of Audacity.</string>
 	<key>Identifier</key>
-	<string>com.github.paulsuh.private-recipes.signing.AdobeAIR</string>
+	<string>com.github.paulsuh.private-recipes.signing.Audacity</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>AdobeAIR</string>
+		<string>Audacity</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.AdobeAIR</string>
+	<string>com.github.paul-suh-recipes.pkg.Audacity</string>
 	<key>Process</key>
 	<array>
        <dict>

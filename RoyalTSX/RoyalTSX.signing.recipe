@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest RoyalTSX disk image and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.paul-suh-recipes.signing.RoyalTSX</string>
+    <string>com.github.paulsuh.private-recipes.signing.RoyalTSX</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
