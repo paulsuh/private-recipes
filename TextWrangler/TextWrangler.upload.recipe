@@ -32,7 +32,7 @@
 		</dict>
 		<dict>
 			<key>Processor</key>
-			<string>PkgBasenameExtractor</string>
+			<string>FilePathElementsProvider</string>
 		</dict>
 		<dict>
 			<key>Processor</key>
@@ -42,7 +42,7 @@
 				<key>remote_command</key>
 				<string>/var/local/www/transpak.mspex.net/bin/update_one_link.sh</string>
 				<key>argv</key>
-				<string>%pkg_basename%</string>
+				<string>%basename%</string>
 			</dict>
 		</dict>
 	</array>
