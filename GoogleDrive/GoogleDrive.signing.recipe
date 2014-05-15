@@ -5,16 +5,16 @@
 	<key>Description</key>
 	<string>Creates signed PKG of GoogleDrive.</string>
 	<key>Identifier</key>
-	<string>com.github.paulsuh.private-recipes.signing.GoogleDrive</string>
+	<string>com.github.paulsuh.private-recipes.signing.Google Drive</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>GoogleDrive</string>
+		<string>Google Drive</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.paul-suh-recipes.pkg.GoogleDrive</string>
+	<string>com.github.paul-suh-recipes.pkg.Google Drive</string>
 	<key>Process</key>
 	<array>
        <dict>
