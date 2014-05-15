@@ -5,16 +5,16 @@
 	<key>Description</key>
 	<string>Uploads signed PKG and sets symlinks</string>
 	<key>Identifier</key>
-	<string>com.github.paulsuh.private-recipes.upload.Google Drive.</string>
+	<string>com.github.paulsuh.private-recipes.upload.GoogleDrive.</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Google Drive.</string>
+		<string>GoogleDrive.</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.paulsuh.private-recipes.signing.Google Drive.</string>
+	<string>com.github.paulsuh.private-recipes.signing.GoogleDrive.</string>
 	<key>Process</key>
 	<array>
 		<dict>
