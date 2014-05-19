@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Creates signed PKG of Silverlight.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg.pkg.Silverlight</string>
+	<string>com.github.paulsuh.private-recipes.signing.Silverlight</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.Silverlight</string>
+	<string> com.github.autopkg.pkg.Silverlight</string>
 	<key>Process</key>
 	<array>
        <dict>
