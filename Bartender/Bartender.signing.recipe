@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.arubdesu.pkg.Bartender</string>
+	<string>com.github.arubdesu.munki.Bartenderr</string>
 	<key>Process</key>
 	<array>
        <dict>
