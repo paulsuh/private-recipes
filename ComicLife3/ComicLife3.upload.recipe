@@ -8,7 +8,7 @@
 	<string>com.github.paulsuh.private-recipes.upload.ComicLife3</string>
 	<key>Input</key>
 	<dict>
-		<key>NAME</key>
+		<key>Comic Life 3</key>
 		<string>ComicLife3</string>
 	</dict>
 	<key>MinimumVersion</key>
