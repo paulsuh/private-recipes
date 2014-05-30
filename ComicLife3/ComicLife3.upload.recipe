@@ -5,16 +5,16 @@
 	<key>Description</key>
 	<string>Uploads signed PKG and sets symlinks</string>
 	<key>Identifier</key>
-	<string>com.github.paulsuh.private-recipes.upload.ComicLife3</string>
+	<string>com.github.paulsuh.private-recipes.upload.Comic Life 3</string>
 	<key>Input</key>
 	<dict>
 		<key>Comic Life 3</key>
-		<string>ComicLife3</string>
+		<string>Comic Life 3</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.paulsuh.private-recipes.signing.ComicLife3</string>
+	<string>com.github.paulsuh.private-recipes.signing.Comic Life 3</string>
 	<key>Process</key>
 	<array>
 		<dict>
