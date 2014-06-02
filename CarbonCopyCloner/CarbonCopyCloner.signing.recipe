@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Creates signed PKG of CarbonCopyCloner.</string>
+	<key>Identifier</key>
+	<string>com.github.paulsuh.private-recipes.signing.CarbonCopyCloner</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>CarbonCopyCloner</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.paul-suh-recipes.pkg.CarbonCopyCloner</string>
+	<key>Process</key>
+	<array>
+       <dict>
+        	<key>Processor</key>
+        	<string>PkgSigner</string>
+        	<key>Arguments</key>
+        	<dict>
+        		<key>signing_cert</key>
+        		<string>Developer ID Installer: ps Enable, Inc. (CC4C75F33Y)</string>
+        		<key>suffix_with_date</key>
+        		<true/>
+        	</dict>
+        </dict>
+	</array>
+</dict>
+</plist>
