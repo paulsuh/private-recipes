@@ -5,16 +5,16 @@
 	<key>Description</key>
 	<string>Uploads signed PKG and sets symlinks</string>
 	<key>Identifier</key>
-	<string>com.github.paulsuh.private-recipes.upload.Comic Life 3</string>
+	<string>com.github.paulsuh.private-recipes.upload.SuperDuper!</string>
 	<key>Input</key>
 	<dict>
-		<key>Comic Life 3</key>
-		<string>Comic Life 3</string>
+		<key>SuperDuper!</key>
+		<string>SuperDuper!</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.paulsuh.private-recipes.signing.Comic Life 3</string>
+	<string>com.github.paulsuh.private-recipes.signing.SuperDuper!</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -33,6 +33,11 @@
 		<dict>
 			<key>Processor</key>
 			<string>FilePathElementsProvider</string>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%pkg_path%</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>Processor</key>

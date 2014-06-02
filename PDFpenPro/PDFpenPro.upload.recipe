@@ -5,16 +5,16 @@
 	<key>Description</key>
 	<string>Uploads signed PKG and sets symlinks</string>
 	<key>Identifier</key>
-	<string>com.github.paulsuh.private-recipes.upload.Pixelmator</string>
+	<string>com.github.paulsuh.private-recipes.upload.PDFpenPro</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Pixelmator</string>
+		<string>PDFpenPro</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.paulsuh.private-recipes.signing.Pixelmator</string>
+	<string>com.github.paulsuh.private-recipes.signing.PDFpenPro</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -53,5 +53,3 @@
 	</array>
 </dict>
 </plist>
-
-

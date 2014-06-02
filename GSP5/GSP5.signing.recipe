@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Creates signed PKG of Pixelmator.</string>
+	<string>Creates signed PKG of GSP5.</string>
 	<key>Identifier</key>
-	<string>com.github.paulsuh.private-recipes.signing.Pixelmator</string>
+	<string>com.github.paulsuh.private-recipes.signing.GSP5</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Pixelmator</string>
+		<string>GSP5</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.paul-suh-recipes.pkg.Pixelmator</string>
+	<string>com.github.paul-suh-recipes.pkg.GSP5</string>
 	<key>Process</key>
 	<array>
        <dict>
@@ -31,5 +31,3 @@
 	</array>
 </dict>
 </plist>
-
-
