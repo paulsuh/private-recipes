@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Creates signed PKG of SuperDuper!.</string>
+	<string>Creates signed PKG of SuperDuper.</string>
 	<key>Identifier</key>
-	<string>com.github.paulsuh.private-recipes.signing.SuperDuper!</string>
+	<string>com.github.paulsuh.private-recipes.signing.SuperDuper</string>
 	<key>Input</key>
 	<dict>
 		<key>SuperDuper!</key>
-		<string>SuperDuper!</string>
+		<string>SuperDuper</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string> com.github.paul-suh-recipes.pkg.SuperDuper!</string>
+	<string>com.github.paul-suh-recipes.pkg.SuperDuper</string>
 	<key>Process</key>
 	<array>
        <dict>
